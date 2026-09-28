@@ -75,25 +75,25 @@ const Navbar = () => {
                     className='flex items-center gap-14'>
 
                     <Link
-                        className='font-semibold text-white text-lg hover:opacity-50 transition-opacity'
+                        className='font-semibold text-white text-lg hover:opacity-50 transition-opacity hover:text-[#afce41] hover:underline underline-offset-8 transition-colors'
                         to="/">
                         Home
                     </Link>
 
                     <Link
-                        className='font-semibold text-white text-lg hover:opacity-50 transition-opacity'
+                        className='font-semibold text-white text-lg hover:opacity-50 transition-opacity hover:text-[#D9FF4F] hover:underline underline-offset-8 transition-colors'
                         to="/destinations">
                         Destination
                     </Link>
 
                     <Link
-                        className='font-semibold text-white text-lg hover:opacity-50 transition-opacity'
+                        className='font-semibold text-white text-lg hover:opacity-50 transition-opacity hover:text-[#D9FF4F] hover:underline underline-offset-8 transition-colors'
                         to="/about">
                         About
                     </Link>
 
                     <Link
-                        className='font-semibold text-white text-lg hover:opacity-50 transition-opacity'
+                        className='font-semibold text-white text-lg hover:opacity-50 transition-opacity hover:text-[#D9FF4F] hover:underline underline-offset-8 transition-colors'
                         to="/contact">
                         Contact
                     </Link>
@@ -105,19 +105,14 @@ const Navbar = () => {
                 <div className='flex items-center'>
 
                     <Link to='/contact'>
-
                         <div ref={ctaRef}>
-                            <button className="flex items-center gap-3 rounded-full bg-white px-8 py-2 text-base text-black font-bold transition-colors hover:bg-[#D9FF4F]">
-
+                            <button className="flex items-center gap-3 rounded-full bg-white px-8 py-2 text-base text-black font-bold transition-colors hover:bg-[#D9FF4F] hover:scale-105 transition-transform duration-300 hover:text-black">
                                 Plan a Trip
-
                                 <span className='text-xl'>
                                     →
                                 </span>
-
                             </button>
                         </div>
-
                     </Link>
 
                 </div>
